@@ -1,10 +1,12 @@
-import AppointmentForm from "../components/AppointmentForm/AppointmentForm";
+import HomeComponents from "@/components/HomeComponents/HomeComponents";
+import React from "react";
+import "./Intro.css";
 
 const HomePage: React.FC = () => {
   return (
-    <div>
-      <AppointmentForm />
-    </div>
+    <>
+      <HomeComponents />
+    </>
   );
 };
 
